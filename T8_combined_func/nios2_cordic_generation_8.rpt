@@ -1,0 +1,154 @@
+Info: Starting: Create block symbol file (.bsf)
+Info: ip-generate --project-directory=H:/DSD/T8_combined_func/ --output-directory=H:/DSD/T8_combined_func/nios2_cordic/ --report-file=bsf:H:/DSD/T8_combined_func/nios2_cordic.bsf --system-info=DEVICE_FAMILY="Cyclone III" --system-info=DEVICE=EP3C16F484C6 --system-info=DEVICE_SPEEDGRADE=6 --component-file=H:/DSD/T8_combined_func/nios2_cordic.qsys
+Progress: Loading T8_combined_func/nios2_cordic.qsys
+Progress: Reading input file
+Progress: Adding clk [clock_source 13.0]
+Progress: Parameterizing module clk
+Progress: Adding cpu [altera_nios2_qsys 13.0]
+Progress: Parameterizing module cpu
+Progress: Adding jtag_uart [altera_avalon_jtag_uart 13.0.1.99.2]
+Progress: Parameterizing module jtag_uart
+Progress: Adding timer [altera_avalon_timer 13.0.1.99.2]
+Progress: Parameterizing module timer
+Progress: Adding sysid_qsys [altera_avalon_sysid_qsys 13.0]
+Progress: Parameterizing module sysid_qsys
+Progress: Adding sdram [altera_avalon_new_sdram_controller 13.0.1.99.2]
+Progress: Parameterizing module sdram
+Progress: Adding altpll [altpll 13.0]
+Progress: Parameterizing module altpll
+Progress: Adding compute_0 [compute 1.0]
+Progress: Parameterizing module compute_0
+Progress: Adding fpadd_0 [fpadd 1.0]
+Progress: Parameterizing module fpadd_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: nios2_cordic.sysid_qsys: System ID is not assigned automatically. Edit the System ID parameter to provide a unique ID
+Info: nios2_cordic.sysid_qsys: Time stamp will be automatically updated when this component is generated.
+Warning: nios2_cordic.altpll: altpll.pll_slave must be connected to an Avalon-MM master
+Warning: nios2_cordic.altpll: altpll.areset_conduit must be exported, or connected to a matching conduit.
+Warning: nios2_cordic.altpll: altpll.locked_conduit must be exported, or connected to a matching conduit.
+Warning: nios2_cordic.altpll: altpll.phasedone_conduit must be exported, or connected to a matching conduit.
+Info: ip-generate succeeded.
+Info: Finished: Create block symbol file (.bsf)
+Info: 
+Info: Starting: Create HDL design files for synthesis
+Info: ip-generate --project-directory=H:/DSD/T8_combined_func/ --output-directory=H:/DSD/T8_combined_func/nios2_cordic/synthesis/ --file-set=QUARTUS_SYNTH --report-file=sopcinfo:H:/DSD/T8_combined_func/nios2_cordic.sopcinfo --report-file=html:H:/DSD/T8_combined_func/nios2_cordic.html --report-file=qip:H:/DSD/T8_combined_func/nios2_cordic/synthesis/nios2_cordic.qip --report-file=cmp:H:/DSD/T8_combined_func/nios2_cordic.cmp --report-file=svd --system-info=DEVICE_FAMILY="Cyclone III" --system-info=DEVICE=EP3C16F484C6 --system-info=DEVICE_SPEEDGRADE=6 --component-file=H:/DSD/T8_combined_func/nios2_cordic.qsys --language=VERILOG
+Progress: Loading T8_combined_func/nios2_cordic.qsys
+Progress: Reading input file
+Progress: Adding clk [clock_source 13.0]
+Progress: Parameterizing module clk
+Progress: Adding cpu [altera_nios2_qsys 13.0]
+Progress: Parameterizing module cpu
+Progress: Adding jtag_uart [altera_avalon_jtag_uart 13.0.1.99.2]
+Progress: Parameterizing module jtag_uart
+Progress: Adding timer [altera_avalon_timer 13.0.1.99.2]
+Progress: Parameterizing module timer
+Progress: Adding sysid_qsys [altera_avalon_sysid_qsys 13.0]
+Progress: Parameterizing module sysid_qsys
+Progress: Adding sdram [altera_avalon_new_sdram_controller 13.0.1.99.2]
+Progress: Parameterizing module sdram
+Progress: Adding altpll [altpll 13.0]
+Progress: Parameterizing module altpll
+Progress: Adding compute_0 [compute 1.0]
+Progress: Parameterizing module compute_0
+Progress: Adding fpadd_0 [fpadd 1.0]
+Progress: Parameterizing module fpadd_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: nios2_cordic.sysid_qsys: System ID is not assigned automatically. Edit the System ID parameter to provide a unique ID
+Info: nios2_cordic.sysid_qsys: Time stamp will be automatically updated when this component is generated.
+Warning: nios2_cordic.altpll: altpll.pll_slave must be connected to an Avalon-MM master
+Warning: nios2_cordic.altpll: altpll.areset_conduit must be exported, or connected to a matching conduit.
+Warning: nios2_cordic.altpll: altpll.locked_conduit must be exported, or connected to a matching conduit.
+Warning: nios2_cordic.altpll: altpll.phasedone_conduit must be exported, or connected to a matching conduit.
+Info: nios2_cordic: Generating nios2_cordic "nios2_cordic" for QUARTUS_SYNTH
+Info: pipeline_bridge_swap_transform: After transform: 9 modules, 23 connections
+Info: merlin_custom_instruction_transform: After transform: 13 modules, 27 connections
+Info: merlin_translator_transform: After transform: 20 modules, 48 connections
+Info: merlin_domain_transform: After transform: 34 modules, 118 connections
+Info: merlin_router_transform: After transform: 41 modules, 139 connections
+Info: merlin_traffic_limiter_transform: After transform: 42 modules, 143 connections
+Info: merlin_burst_transform: After transform: 43 modules, 146 connections
+Info: reset_adaptation_transform: After transform: 45 modules, 150 connections
+Info: merlin_network_to_switch_transform: After transform: 58 modules, 178 connections
+Info: merlin_width_transform: After transform: 60 modules, 184 connections
+Info: limiter_update_transform: After transform: 60 modules, 185 connections
+Info: merlin_mm_transform: After transform: 60 modules, 185 connections
+Info: merlin_interrupt_mapper_transform: After transform: 61 modules, 188 connections
+Warning: nios2_cordic: "No matching role found for cpu_custom_instruction_master_translator:ci_slave:ci_slave_result (result)"
+Warning: nios2_cordic: "No matching role found for cpu_custom_instruction_master_multi_xconnect:ci_slave:ci_slave_ipending (ipending)"
+Warning: nios2_cordic: "No matching role found for cpu_custom_instruction_master_multi_xconnect:ci_slave:ci_slave_estatus (estatus)"
+Warning: nios2_cordic: "No matching role found for cpu_custom_instruction_master_multi_slave_translator0:ci_master:ci_master_reset (reset)"
+Warning: nios2_cordic: "No matching role found for cpu_custom_instruction_master_multi_slave_translator1:ci_master:ci_master_reset (reset)"
+Info: cpu: Starting RTL generation for module 'nios2_cordic_cpu'
+Info: cpu:   Generation command is [exec C:/altera/13.0sp1/quartus/../ip/altera/nios2_ip/altera_nios2/eperl.exe -I C:/altera/13.0sp1/quartus/common/ip/altera/common/perl/5.8.3 -I C:/altera/13.0sp1/quartus/sopc_builder/bin/europa -I C:/altera/13.0sp1/quartus/sopc_builder/bin/perl_lib -I C:/altera/13.0sp1/quartus/sopc_builder/bin -I C:/altera/13.0sp1/quartus/../ip/altera/nios2_ip/altera_nios2/cpu_lib -I C:/altera/13.0sp1/quartus/../ip/altera/nios2_ip/altera_nios2/nios_lib -I C:/altera/13.0sp1/quartus/../ip/altera/nios2_ip/altera_nios2 -I C:/altera/13.0sp1/quartus/../ip/altera/nios2_ip/altera_nios2 -- C:/altera/13.0sp1/quartus/../ip/altera/nios2_ip/altera_nios2/generate_rtl.epl --name=nios2_cordic_cpu --dir=C:/Users/jc4913/AppData/Local/Temp/alt6870_1980544369176738263.dir/0001_cpu_gen/ --quartus_dir=C:/altera/13.0sp1/quartus --verilog --config=C:/Users/jc4913/AppData/Local/Temp/alt6870_1980544369176738263.dir/0001_cpu_gen//nios2_cordic_cpu_processor_configuration.pl  --do_build_sim=0    --bogus  ]
+Info: cpu: # 2016.03.10 19:09:58 (*) Starting Nios II generation
+Info: cpu: # 2016.03.10 19:09:58 (*)   Checking for plaintext license.
+Info: cpu: # 2016.03.10 19:09:59 (*)   Couldn't query license setup in Quartus directory C:/altera/13.0sp1/quartus
+Info: cpu: # 2016.03.10 19:09:59 (*)   Defaulting to contents of LM_LICENSE_FILE environment variable
+Info: cpu: # 2016.03.10 19:09:59 (*)   Plaintext license not found.
+Info: cpu: # 2016.03.10 19:09:59 (*)   Checking for encrypted license (non-evaluation).
+Info: cpu: # 2016.03.10 19:09:59 (*)   Couldn't query license setup in Quartus directory C:/altera/13.0sp1/quartus
+Info: cpu: # 2016.03.10 19:09:59 (*)   Defaulting to contents of LM_LICENSE_FILE environment variable
+Info: cpu: # 2016.03.10 19:10:00 (*)   Encrypted license found.  SOF will not be time-limited.
+Info: cpu: # 2016.03.10 19:10:00 (*)   Elaborating CPU configuration settings
+Info: cpu: # 2016.03.10 19:10:00 (*)   Creating all objects for CPU
+Info: cpu: # 2016.03.10 19:10:01 (*)     Pipeline frontend
+Info: cpu: # 2016.03.10 19:10:02 (*)   Generating RTL from CPU objects
+Info: cpu: # 2016.03.10 19:10:06 (*)   Creating encrypted RTL
+Info: cpu: # 2016.03.10 19:10:07 (*) Done Nios II generation
+Info: cpu: Done RTL generation for module 'nios2_cordic_cpu'
+Info: cpu: "nios2_cordic" instantiated altera_nios2_qsys "cpu"
+Info: jtag_uart: Starting RTL generation for module 'nios2_cordic_jtag_uart'
+Info: jtag_uart:   Generation command is [exec C:/altera/13.0sp1/quartus/bin/perl/bin/perl.exe -I C:/altera/13.0sp1/quartus/common/ip/altera/common/perl/5.8.3 -I C:/altera/13.0sp1/quartus/sopc_builder/bin/europa -I C:/altera/13.0sp1/quartus/sopc_builder/bin/perl_lib -I C:/altera/13.0sp1/quartus/sopc_builder/bin -I C:/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/common -I C:/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart -- C:/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart/generate_rtl.pl --name=nios2_cordic_jtag_uart --dir=C:/Users/jc4913/AppData/Local/Temp/alt6870_1980544369176738263.dir/0002_jtag_uart_gen/ --quartus_dir=C:/altera/13.0sp1/quartus --verilog --config=C:/Users/jc4913/AppData/Local/Temp/alt6870_1980544369176738263.dir/0002_jtag_uart_gen//nios2_cordic_jtag_uart_component_configuration.pl  --do_build_sim=0  ]
+Info: jtag_uart: Done RTL generation for module 'nios2_cordic_jtag_uart'
+Info: jtag_uart: "nios2_cordic" instantiated altera_avalon_jtag_uart "jtag_uart"
+Info: timer: Starting RTL generation for module 'nios2_cordic_timer'
+Info: timer:   Generation command is [exec C:/altera/13.0sp1/quartus/bin/perl/bin/perl.exe -I C:/altera/13.0sp1/quartus/common/ip/altera/common/perl/5.8.3 -I C:/altera/13.0sp1/quartus/sopc_builder/bin/europa -I C:/altera/13.0sp1/quartus/sopc_builder/bin/perl_lib -I C:/altera/13.0sp1/quartus/sopc_builder/bin -I C:/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/common -I C:/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_timer -- C:/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_timer/generate_rtl.pl --name=nios2_cordic_timer --dir=C:/Users/jc4913/AppData/Local/Temp/alt6870_1980544369176738263.dir/0003_timer_gen/ --quartus_dir=C:/altera/13.0sp1/quartus --verilog --config=C:/Users/jc4913/AppData/Local/Temp/alt6870_1980544369176738263.dir/0003_timer_gen//nios2_cordic_timer_component_configuration.pl  --do_build_sim=0  ]
+Info: timer: Done RTL generation for module 'nios2_cordic_timer'
+Info: timer: "nios2_cordic" instantiated altera_avalon_timer "timer"
+Info: sysid_qsys: "nios2_cordic" instantiated altera_avalon_sysid_qsys "sysid_qsys"
+Info: sdram: Starting RTL generation for module 'nios2_cordic_sdram'
+Info: sdram:   Generation command is [exec C:/altera/13.0sp1/quartus/bin/perl/bin/perl.exe -I C:/altera/13.0sp1/quartus/common/ip/altera/common/perl/5.8.3 -I C:/altera/13.0sp1/quartus/sopc_builder/bin/europa -I C:/altera/13.0sp1/quartus/sopc_builder/bin/perl_lib -I C:/altera/13.0sp1/quartus/sopc_builder/bin -I C:/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/common -I C:/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_new_sdram_controller -- C:/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_new_sdram_controller/generate_rtl.pl --name=nios2_cordic_sdram --dir=C:/Users/jc4913/AppData/Local/Temp/alt6870_1980544369176738263.dir/0005_sdram_gen/ --quartus_dir=C:/altera/13.0sp1/quartus --verilog --config=C:/Users/jc4913/AppData/Local/Temp/alt6870_1980544369176738263.dir/0005_sdram_gen//nios2_cordic_sdram_component_configuration.pl  --do_build_sim=0  ]
+Info: sdram: Done RTL generation for module 'nios2_cordic_sdram'
+Info: sdram: "nios2_cordic" instantiated altera_avalon_new_sdram_controller "sdram"
+Info: altpll: "nios2_cordic" instantiated altpll "altpll"
+Info: compute_0: "nios2_cordic" instantiated compute "compute_0"
+Info: fpadd_0: "nios2_cordic" instantiated fpadd "fpadd_0"
+Info: Reusing file H:/DSD/T8_combined_func/nios2_cordic/synthesis/submodules/fpadd.vhd
+Info: cpu_custom_instruction_master_translator: "nios2_cordic" instantiated altera_customins_master_translator "cpu_custom_instruction_master_translator"
+Info: cpu_custom_instruction_master_multi_xconnect: "nios2_cordic" instantiated altera_customins_xconnect "cpu_custom_instruction_master_multi_xconnect"
+Info: cpu_custom_instruction_master_multi_slave_translator0: "nios2_cordic" instantiated altera_customins_slave_translator "cpu_custom_instruction_master_multi_slave_translator0"
+Info: cpu_instruction_master_translator: "nios2_cordic" instantiated altera_merlin_master_translator "cpu_instruction_master_translator"
+Info: cpu_jtag_debug_module_translator: "nios2_cordic" instantiated altera_merlin_slave_translator "cpu_jtag_debug_module_translator"
+Info: cpu_instruction_master_translator_avalon_universal_master_0_agent: "nios2_cordic" instantiated altera_merlin_master_agent "cpu_instruction_master_translator_avalon_universal_master_0_agent"
+Info: cpu_jtag_debug_module_translator_avalon_universal_slave_0_agent: "nios2_cordic" instantiated altera_merlin_slave_agent "cpu_jtag_debug_module_translator_avalon_universal_slave_0_agent"
+Info: cpu_jtag_debug_module_translator_avalon_universal_slave_0_agent_rsp_fifo: "nios2_cordic" instantiated altera_avalon_sc_fifo "cpu_jtag_debug_module_translator_avalon_universal_slave_0_agent_rsp_fifo"
+Info: addr_router: "nios2_cordic" instantiated altera_merlin_router "addr_router"
+Info: addr_router_001: "nios2_cordic" instantiated altera_merlin_router "addr_router_001"
+Info: id_router: "nios2_cordic" instantiated altera_merlin_router "id_router"
+Info: id_router_001: "nios2_cordic" instantiated altera_merlin_router "id_router_001"
+Info: id_router_002: "nios2_cordic" instantiated altera_merlin_router "id_router_002"
+Info: limiter: "nios2_cordic" instantiated altera_merlin_traffic_limiter "limiter"
+Info: burst_adapter: "nios2_cordic" instantiated altera_merlin_burst_adapter "burst_adapter"
+Info: rst_controller: "nios2_cordic" instantiated altera_reset_controller "rst_controller"
+Info: cmd_xbar_demux: "nios2_cordic" instantiated altera_merlin_demultiplexer "cmd_xbar_demux"
+Info: cmd_xbar_demux_001: "nios2_cordic" instantiated altera_merlin_demultiplexer "cmd_xbar_demux_001"
+Info: cmd_xbar_mux: "nios2_cordic" instantiated altera_merlin_multiplexer "cmd_xbar_mux"
+Info: rsp_xbar_demux: "nios2_cordic" instantiated altera_merlin_demultiplexer "rsp_xbar_demux"
+Info: rsp_xbar_demux_002: "nios2_cordic" instantiated altera_merlin_demultiplexer "rsp_xbar_demux_002"
+Info: rsp_xbar_mux: "nios2_cordic" instantiated altera_merlin_multiplexer "rsp_xbar_mux"
+Info: Reusing file H:/DSD/T8_combined_func/nios2_cordic/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: rsp_xbar_mux_001: "nios2_cordic" instantiated altera_merlin_multiplexer "rsp_xbar_mux_001"
+Info: Reusing file H:/DSD/T8_combined_func/nios2_cordic/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: width_adapter: "nios2_cordic" instantiated altera_merlin_width_adapter "width_adapter"
+Info: Reusing file H:/DSD/T8_combined_func/nios2_cordic/synthesis/submodules/altera_merlin_address_alignment.sv
+Info: Reusing file H:/DSD/T8_combined_func/nios2_cordic/synthesis/submodules/altera_merlin_burst_uncompressor.sv
+Info: irq_mapper: "nios2_cordic" instantiated altera_irq_mapper "irq_mapper"
+Info: nios2_cordic: Done nios2_cordic" with 34 modules, 91 files, 2165177 bytes
+Info: ip-generate succeeded.
+Info: Finished: Create HDL design files for synthesis

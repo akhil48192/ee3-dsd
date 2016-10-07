@@ -1,0 +1,78 @@
+H:/DSD/T8_DMA/fileOFaccum/reg_en.vhd {1 {vcom -work work -2002 -explicit H:/DSD/T8_DMA/fileOFaccum/reg_en.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity reg_en
+-- Compiling architecture main of reg_en
+
+} {} {}} H:/DSD/T8_DMA/fileOFaccum/accumulator.vhd {1 {vcom -work work -2002 -explicit H:/DSD/T8_DMA/fileOFaccum/accumulator.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity accumulator
+-- Compiling architecture main of accumulator
+
+} {} {}} H:/DSD/T8_DMA/fileOFaccum/fsm_adder.vhd {1 {vcom -work work -2002 -explicit H:/DSD/T8_DMA/fileOFaccum/fsm_adder.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity fsm_adder
+-- Compiling architecture fsm of fsm_adder
+
+} {} {}} H:/DSD/T8_DMA/fileOFaccum/fpadd_en.vhd {1 {vcom -work work -2002 -explicit H:/DSD/T8_DMA/fileOFaccum/fpadd_en.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity fpadd_en_altbarrel_shift_q3e
+-- Compiling architecture RTL of fpadd_en_altbarrel_shift_q3e
+-- Compiling entity fpadd_en_altbarrel_shift_fkb
+-- Compiling architecture RTL of fpadd_en_altbarrel_shift_fkb
+-- Compiling entity fpadd_en_altpriority_encoder_3e8
+-- Compiling architecture RTL of fpadd_en_altpriority_encoder_3e8
+-- Compiling entity fpadd_en_altpriority_encoder_6e8
+-- Compiling architecture RTL of fpadd_en_altpriority_encoder_6e8
+-- Compiling entity fpadd_en_altpriority_encoder_be8
+-- Compiling architecture RTL of fpadd_en_altpriority_encoder_be8
+-- Compiling entity fpadd_en_altpriority_encoder_3v7
+-- Compiling architecture RTL of fpadd_en_altpriority_encoder_3v7
+-- Compiling entity fpadd_en_altpriority_encoder_6v7
+-- Compiling architecture RTL of fpadd_en_altpriority_encoder_6v7
+-- Compiling entity fpadd_en_altpriority_encoder_bv7
+-- Compiling architecture RTL of fpadd_en_altpriority_encoder_bv7
+-- Compiling entity fpadd_en_altpriority_encoder_r08
+-- Compiling architecture RTL of fpadd_en_altpriority_encoder_r08
+-- Compiling entity fpadd_en_altpriority_encoder_rf8
+-- Compiling architecture RTL of fpadd_en_altpriority_encoder_rf8
+-- Compiling entity fpadd_en_altpriority_encoder_qb6
+-- Compiling architecture RTL of fpadd_en_altpriority_encoder_qb6
+-- Compiling entity fpadd_en_altpriority_encoder_nh8
+-- Compiling architecture RTL of fpadd_en_altpriority_encoder_nh8
+-- Compiling entity fpadd_en_altpriority_encoder_qh8
+-- Compiling architecture RTL of fpadd_en_altpriority_encoder_qh8
+-- Compiling entity fpadd_en_altpriority_encoder_vh8
+-- Compiling architecture RTL of fpadd_en_altpriority_encoder_vh8
+-- Compiling entity fpadd_en_altpriority_encoder_fj8
+-- Compiling architecture RTL of fpadd_en_altpriority_encoder_fj8
+-- Compiling entity fpadd_en_altpriority_encoder_n28
+-- Compiling architecture RTL of fpadd_en_altpriority_encoder_n28
+-- Compiling entity fpadd_en_altpriority_encoder_q28
+-- Compiling architecture RTL of fpadd_en_altpriority_encoder_q28
+-- Compiling entity fpadd_en_altpriority_encoder_v28
+-- Compiling architecture RTL of fpadd_en_altpriority_encoder_v28
+-- Compiling entity fpadd_en_altpriority_encoder_f48
+-- Compiling architecture RTL of fpadd_en_altpriority_encoder_f48
+-- Compiling entity fpadd_en_altpriority_encoder_e48
+-- Compiling architecture RTL of fpadd_en_altpriority_encoder_e48
+-- Compiling entity fpadd_en_altfp_add_sub_a6k
+-- Compiling architecture RTL of fpadd_en_altfp_add_sub_a6k
+-- Compiling entity fpadd_en
+-- Compiling architecture RTL of fpadd_en
+
+} {} {}}

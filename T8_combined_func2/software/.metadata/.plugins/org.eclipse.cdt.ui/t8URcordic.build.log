@@ -1,0 +1,10 @@
+
+**** Build of configuration Nios II for project t8URcordic ****
+
+make all 
+Info: Building ../t8URcordic_bsp/
+make --no-print-directory -C ../t8URcordic_bsp/
+[BSP build complete]
+[t8URcordic build complete]
+
+**** Build Finished ****

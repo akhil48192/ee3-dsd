@@ -1,0 +1,42 @@
+m255
+K3
+13
+cModel Technology
+dH:\DSD\dsd_ip
+Ecounter
+Z0 w1457963975
+Z1 DPx4 ieee 11 numeric_std 0 22 O3PF8EB`?j9=z7KT`fn941
+Z2 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z3 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z4 dH:\DSD\T8_DMA\fileOFtop
+Z5 8H:/DSD/T8_DMA/fileOFtop/counter.vhd
+Z6 FH:/DSD/T8_DMA/fileOFtop/counter.vhd
+l0
+L5
+V]SV@WInI1?kaC<dB]C[li3
+!s100 RoA>bd31Qjba4eJnbcfLM2
+Z7 OV;C;10.1d;51
+32
+!i10b 1
+Z8 !s108 1457964053.107000
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|H:/DSD/T8_DMA/fileOFtop/counter.vhd|
+Z10 !s107 H:/DSD/T8_DMA/fileOFtop/counter.vhd|
+Z11 o-work work -2002 -explicit -O0
+Z12 tExplicit 1
+Amain
+R1
+R2
+R3
+Z13 DEx4 work 7 counter 0 22 ]SV@WInI1?kaC<dB]C[li3
+l18
+L16
+VPEUW:dQc_1Ul`XLcMWY380
+!s100 F^>d7LUR4mcZam`7Vl=eQ3
+R7
+32
+!i10b 1
+R8
+R9
+R10
+R11
+R12

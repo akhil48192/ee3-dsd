@@ -1,0 +1,1 @@
+vsim +altera -do hello_world_run_msim_rtl_vhdl.do -l msim_transcript -gui work.combined_func2

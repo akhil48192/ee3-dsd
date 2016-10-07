@@ -1,0 +1,96 @@
+
+<RESULTS project="hello_world" revname="__dse_temp_rev" isbest="0" arcname="" wasCompiled="1" name="90-slow-1200mV-85C">
+ <COPYRIGHT>Copyright (C) 2002 Altera Corporation. All rights reserved.
+                This information and code is highly confidential and proprietary
+                information and code of Altera and is being provided in accordance
+                with and subject to the protections of a non-disclosure agreement
+                which governs its use and disclosure.  Altera products and services
+                are protected under numerous U.S. and foreign patents, maskwork rights
+                copyrights and other intellectual property laws.  Altera assumes no
+                responsibility or liability arising out of the application or use
+                of this information and code. This notice must be retained and
+                reprinted on any copies of this information and code that are
+                permitted to be made.</COPYRIGHT>
+ <SETTING name="SEED">91</SETTING>
+ <RESULT name="JTAGs">1 / 1 ( 100 % )</RESULT>
+ <RESULT name="I/O pins">47 / 347 ( 14 % )</RESULT>
+ <RESULT name="Clock Setup: 'altera_reserved_tck': Per-clock Edge TNS">0.000 ns</RESULT>
+ <RESULT name="Clock Setup: 'sopc_clk': Restricted Fmax">60.59 MHz</RESULT>
+ <RESULT name="Clock Setup: 'sopc_clk': Worst-case Slack">3.496 ns</RESULT>
+ <RESULT name="Elapsed Time: Total">00:01:39</RESULT>
+ <RESULT name="Clock Hold: 'sopc_clk': Per-clock Keeper TNS">0.000 ns</RESULT>
+ <RESULT name="Clock Hold: 'sopc_clk': Per-clock Edge TNS">0.000 ns</RESULT>
+ <RESULT name="Elapsed Time: Assembler">00:00:02</RESULT>
+ <RESULT name="Worst-case Slack">0.020 ns (Clock Hold: 'sopc_clk')</RESULT>
+ <RESULT name="Elapsed Time: TimeQuest Timing Analyzer">00:00:07</RESULT>
+ <RESULT name="Clock Recovery: 'altera_reserved_tck': Per-clock Keeper TNS">0.000 ns</RESULT>
+ <RESULT name="Total logic elements">13981</RESULT>
+ <RESULT name="Clock Hold: 'sopc_clk': Worst-case Slack">0.020 ns</RESULT>
+ <RESULT name="Peak interconnect usage (total/H/V)">54% / 58% / 50%</RESULT>
+ <RESULT name="Logic element usage by number of LUT inputs: &lt;=2 input functions">2396</RESULT>
+ <RESULT name="Clock Hold: 'altera_reserved_tck': Worst-case Slack">0.287 ns</RESULT>
+ <RESULT name="Total Keeper TNS">0.0 ns</RESULT>
+ <RESULT name="Elapsed Time: Fitter">00:00:51</RESULT>
+ <RESULT name="Logic element usage by number of LUT inputs: Register only">598</RESULT>
+ <RESULT name="Clock Removal: 'sopc_clk': Worst-case Slack">0.962 ns</RESULT>
+ <RESULT name="Clock Setup: 'altera_reserved_tck': Per-clock Keeper TNS">0.000 ns</RESULT>
+ <RESULT name="Clock Setup: 'sopc_clk': Fmax">60.59 MHz</RESULT>
+ <RESULT name="Clock Recovery: Total Keeper TNS">0.0 ns</RESULT>
+ <RESULT name="Average interconnect usage (total/H/V)">38% / 38% / 38%</RESULT>
+ <RESULT name="Clock Removal: 'altera_reserved_tck': Per-clock Edge TNS">0.000 ns</RESULT>
+ <RESULT name="Clock Recovery: 'altera_reserved_tck': Per-clock Edge TNS">0.000 ns</RESULT>
+ <RESULT name="I/O pins: Clock pins">1 / 8 ( 13 % )</RESULT>
+ <RESULT name="Virtual pins">0</RESULT>
+ <RESULT name="Clock Removal: Total Keeper TNS">0.0 ns</RESULT>
+ <RESULT name="Total LABs:  partially or completely used">950 / 963 ( 99 % )</RESULT>
+ <RESULT name="Total block memory bits">301143</RESULT>
+ <RESULT name="I/O pins: Dedicated input pins">3 / 9 ( 33 % )</RESULT>
+ <RESULT name="Total registers">4,681 / 17,068 ( 27 % )</RESULT>
+ <RESULT name="Logic elements by mode: arithmetic mode">6600</RESULT>
+ <RESULT name="Impedance control blocks">0 / 4 ( 0 % )</RESULT>
+ <RESULT name="Total registers: I/O registers">68 / 1,660 ( 4 % )</RESULT>
+ <RESULT name="Clock Setup: 'altera_reserved_tck': Restricted Fmax">15.78 MHz</RESULT>
+ <RESULT name="Clock Setup: 'sopc_clk': Per-clock Edge TNS">0.000 ns</RESULT>
+ <RESULT name="Total logic elements: Combinational with no register">9368</RESULT>
+ <RESULT name="Total block memory implementation bits">396,288 / 516,096 ( 77 % )</RESULT>
+ <RESULT name="Timing Model">Slow 1200mV 85C</RESULT>
+ <RESULT name="Clock Setup: 'altera_reserved_tck': Actual Time">63.371 ns</RESULT>
+ <RESULT name="Global signals">8</RESULT>
+ <RESULT name="Embedded Multiplier 9-bit elements">18 / 112 ( 16 % )</RESULT>
+ <RESULT name="Total registers: Dedicated logic registers">4,613 / 15,408 ( 30 % )</RESULT>
+ <RESULT name="Elapsed Time: Analysis &amp; Synthesis">00:00:39</RESULT>
+ <RESULT name="M9Ks">43 / 56 ( 77 % )</RESULT>
+ <RESULT name="Clock Setup: 'altera_reserved_tck': Fmax">15.78 MHz</RESULT>
+ <RESULT name="Clock Recovery: 'sopc_clk': Per-clock Keeper TNS">0.000 ns</RESULT>
+ <RESULT name="Average fan-out">3.23</RESULT>
+ <RESULT name="Clock Recovery: 'sopc_clk': Per-clock Edge TNS">0.000 ns</RESULT>
+ <RESULT name="Total fan-out">60153</RESULT>
+ <RESULT name="Clock Setup: 'sopc_clk': Actual Time">16.504 ns</RESULT>
+ <RESULT name="Clock Hold: 'altera_reserved_tck': Per-clock Keeper TNS">0.000 ns</RESULT>
+ <RESULT name="ASMI blocks">0 / 1 ( 0 % )</RESULT>
+ <RESULT name="Total logic elements: Register only">598</RESULT>
+ <RESULT name="Clock Recovery: 'sopc_clk': Worst-case Slack">5.659 ns</RESULT>
+ <RESULT name="Logic elements by mode: normal mode">6783</RESULT>
+ <RESULT name="Total logic elements: Combinational with a register">4015</RESULT>
+ <RESULT name="Clock Removal: 'sopc_clk': Per-clock Keeper TNS">0.000 ns</RESULT>
+ <RESULT name="Logic element usage by number of LUT inputs: 3 input functions">6770</RESULT>
+ <RESULT name="Clock Setup: Total Keeper TNS">0.0 ns</RESULT>
+ <RESULT name="Clock Recovery: 'altera_reserved_tck': Worst-case Slack">47.883 ns</RESULT>
+ <RESULT name="Logic element usage by number of LUT inputs: 4 input functions">4217</RESULT>
+ <RESULT name="Highest non-global fan-out">1549</RESULT>
+ <RESULT name="Clock Hold: Total Keeper TNS">0.0 ns</RESULT>
+ <RESULT name="All Failing Paths">0</RESULT>
+ <RESULT name="Total Thermal Power Dissipation">unknown</RESULT>
+ <RESULT name="CRC blocks">0 / 1 ( 0 % )</RESULT>
+ <RESULT name="Clock Removal: 'altera_reserved_tck': Per-clock Keeper TNS">0.000 ns</RESULT>
+ <RESULT name="Clock Setup: 'altera_reserved_tck': Worst-case Slack">18.317 ns</RESULT>
+ <RESULT name="Maximum fan-out">4509</RESULT>
+ <RESULT name="Global clocks">8 / 20 ( 40 % )</RESULT>
+ <RESULT name="Clock Hold: 'altera_reserved_tck': Per-clock Edge TNS">0.000 ns</RESULT>
+ <RESULT name="Clock Period: Geometric Mean">32.34 ns</RESULT>
+ <RESULT name="PLLs">1 / 4 ( 25 % )</RESULT>
+ <RESULT name="Clock Removal: 'altera_reserved_tck': Worst-case Slack">0.997 ns</RESULT>
+ <RESULT name="Clock Removal: 'sopc_clk': Per-clock Edge TNS">0.000 ns</RESULT>
+ <RESULT name="Clock Setup: 'sopc_clk': Per-clock Keeper TNS">0.000 ns</RESULT>
+</RESULTS>
+

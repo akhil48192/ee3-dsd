@@ -1,0 +1,1 @@
+restart -force -nowave; add wave -r /*; force clk 1 0ns, 0 10ns -repeat 20ns; force reset 1 20ns, 0 40ns; run 500ns

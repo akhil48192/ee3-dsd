@@ -1,0 +1,10 @@
+
+**** Build of configuration Nios II for project t8comb2 ****
+
+make all 
+Info: Building ../t8comb2_bsp/
+make --no-print-directory -C ../t8comb2_bsp/
+[BSP build complete]
+[t8comb2 build complete]
+
+**** Build Finished ****

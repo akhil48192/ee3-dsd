@@ -1,0 +1,42 @@
+m255
+K3
+13
+cModel Technology
+dH:\DSD\T8_DMA\fileOFaccum
+Econtroller
+Z0 w1457889257
+Z1 DPx4 ieee 11 numeric_std 0 22 O3PF8EB`?j9=z7KT`fn941
+Z2 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z3 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z4 dH:\DSD\T8_DMA\fileOFreadmaster
+Z5 8H:/DSD/T8_DMA/fileOFreadmaster/controller.vhd
+Z6 FH:/DSD/T8_DMA/fileOFreadmaster/controller.vhd
+l0
+L5
+VeKWD9WOE7UO8[]e9N6MEQ3
+!s100 EDCV=ZU4@CRPa5K?_eKZm2
+Z7 OV;C;10.1d;51
+32
+!i10b 1
+Z8 !s108 1457889266.902000
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|H:/DSD/T8_DMA/fileOFreadmaster/controller.vhd|
+Z10 !s107 H:/DSD/T8_DMA/fileOFreadmaster/controller.vhd|
+Z11 o-work work -2002 -explicit -O0
+Z12 tExplicit 1
+Amain
+R1
+R2
+R3
+Z13 DEx4 work 10 controller 0 22 eKWD9WOE7UO8[]e9N6MEQ3
+l21
+L17
+V5gOCD?LomM45`GHg9enZD3
+!s100 _7RMMQFL^[23SL=b1==]Z0
+R7
+32
+!i10b 1
+R8
+R9
+R10
+R11
+R12

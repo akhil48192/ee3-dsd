@@ -1,0 +1,86 @@
+H:/DSD/dsd_ip/cosine_fixpt.vhd {1 {vcom -work work -2002 -explicit H:/DSD/dsd_ip/cosine_fixpt.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package slv_shift
+-- Compiling entity cosine
+-- Compiling architecture main of cosine
+
+} {} {}} H:/DSD/T8_UR_cordic/fx2fp.vhd {1 {vcom -work work -2002 -explicit H:/DSD/T8_UR_cordic/fx2fp.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity fx2fp_altbarrel_shift_kuf
+-- Compiling architecture RTL of fx2fp_altbarrel_shift_kuf
+-- Compiling entity fx2fp_altpriority_encoder_3e8
+-- Compiling architecture RTL of fx2fp_altpriority_encoder_3e8
+-- Compiling entity fx2fp_altpriority_encoder_6e8
+-- Compiling architecture RTL of fx2fp_altpriority_encoder_6e8
+-- Compiling entity fx2fp_altpriority_encoder_be8
+-- Compiling architecture RTL of fx2fp_altpriority_encoder_be8
+-- Compiling entity fx2fp_altpriority_encoder_3v7
+-- Compiling architecture RTL of fx2fp_altpriority_encoder_3v7
+-- Compiling entity fx2fp_altpriority_encoder_6v7
+-- Compiling architecture RTL of fx2fp_altpriority_encoder_6v7
+-- Compiling entity fx2fp_altpriority_encoder_bv7
+-- Compiling architecture RTL of fx2fp_altpriority_encoder_bv7
+-- Compiling entity fx2fp_altpriority_encoder_r08
+-- Compiling architecture RTL of fx2fp_altpriority_encoder_r08
+-- Compiling entity fx2fp_altpriority_encoder_rf8
+-- Compiling architecture RTL of fx2fp_altpriority_encoder_rf8
+-- Compiling entity fx2fp_altpriority_encoder_qb6
+-- Compiling architecture RTL of fx2fp_altpriority_encoder_qb6
+-- Compiling entity fx2fp_altfp_convert_tqn
+-- Compiling architecture RTL of fx2fp_altfp_convert_tqn
+-- Compiling entity fx2fp
+-- Compiling architecture RTL of fx2fp
+
+} {} {}} H:/DSD/T8_UR_cordic/cos_rom.vhd {1 {vcom -work work -2002 -explicit H:/DSD/T8_UR_cordic/cos_rom.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity cos_rom
+-- Compiling architecture main of cos_rom
+
+} {} {}} H:/DSD/dsd_ip/cos_8.vhd {1 {vcom -work work -2002 -explicit {H:\DSD\dsd_ip\cos_8.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package slv_shift
+-- Compiling entity cosine_8
+-- Compiling architecture main of cosine_8
+
+} {} {}} H:/DSD/T8_UR_cordic/cos_wrapper_8.vhd {0 {vcom -work work -2002 -explicit {H:\DSD\T8_UR_cordic\cos_wrapper_8.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity cos_wrapper_8
+-- Compiling architecture main of cos_wrapper_8
+-- Loading entity cos_rom
+-- Loading package slv_shift
+-- Loading entity cosine_8
+-- Loading entity fx2fp
+** Error: H:\DSD\T8_UR_cordic\cos_wrapper_8.vhd(20): Signal "fx_out" is type ieee.std_logic_1164.STD_LOGIC_VECTOR; expecting type ieee.std_logic_1164.STD_LOGIC.
+** Error: H:\DSD\T8_UR_cordic\cos_wrapper_8.vhd(20): Cannot read output "float_out".
+** Error: H:\DSD\T8_UR_cordic\cos_wrapper_8.vhd(21): VHDL Compiler exiting
+
+} {13.0 16.0} {}} H:/DSD/dsd_ip/slv_shift.vhdl {1 {vcom -work work -2002 -explicit H:/DSD/dsd_ip/slv_shift.vhdl
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling package slv_shift
+-- Compiling package body slv_shift
+-- Loading package slv_shift
+
+} {} {}}

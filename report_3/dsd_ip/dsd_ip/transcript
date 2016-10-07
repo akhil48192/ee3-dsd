@@ -1,0 +1,13 @@
+vsim -gui work.combined_func
+# vsim -gui work.combined_func 
+# ** Note: (vsim-3812) Design is being optimized...
+# 
+# ** Warning: (vopt-2009) At least one design unit was compiled with optimization level -O0 or -O1.
+# 
+# Use vdir -l command to find such design units.
+# 
+# ** Error: H:/DSD/dsd_ip/fx2fp.vhd(836): Library lpm not found.
+# ** Error: H:/DSD/dsd_ip/fx2fp.vhd(837): (vopt-1136) Unknown identifier "lpm".
+# 
+# ** Error: H:/DSD/dsd_ip/fx2fp.vhd(852): Vopt Compiler exiting
+# Error loading design

@@ -1,0 +1,130 @@
+no custom
+Running algorithm for task: 4+
+Dividing result by 1024 is: OFF
+gen vector 1, sum vector 1
+Time = 26; Result = 57879.867188
+gen vector 2, sum vector 2
+Time = 1253; Result = -76973.640625
+gen vector 3, sum vector 3
+Time = 125261; Result = 37022500.000000
+
+custom, custom floor
+Running algorithm for task: 4+
+Dividing result by 1024 is: OFF
+gen vector 1, sum vector 1
+Time = 21; Result = 57879.867188
+gen vector 2, sum vector 2
+Time = 1036; Result = -76973.640625
+gen vector 3, sum vector 3
+Time = 103568; Result = 37022500.000000
+
+custom, math floor
+Running algorithm for task: 4+
+Dividing result by 1024 is: OFF
+gen vector 1, sum vector 1
+Time = 23; Result = 57879.867188
+gen vector 2, sum vector 2
+Time = 1139; Result = -76973.640625
+gen vector 3, sum vector 3
+Time = 113919; Result = 37022500.000000
+
+custom, o2, custom floor
+Hi, v1.1
+Running algorithm for task: 4+
+Dividing result by 1024 is: OFF
+gen vector 1, sum vector 1
+Time = 20; Result = 57879.867188
+gen vector 2, sum vector 2
+Time = 1000; Result = -76973.640625
+gen vector 3, sum vector 3
+Time = 99995; Result = 37022500.000000
+
+no custom, custom floor, o2
+Hi, v1.2
+Running algorithm for task: 4+
+Dividing result by 1024 is: OFF
+gen vector 1, sum vector 1
+Time = 24; Result = 57879.867188
+gen vector 2, sum vector 2
+Time = 1201; Result = -76973.640625
+gen vector 3, sum vector 3
+Time = 120043; Result = 37022500.000000
+
+custom w/out multx.25, o2, custom floor
+Hi, v1.3
+Running algorithm for task: 4+
+Dividing result by 1024 is: OFF
+gen vector 1, sum vector 1
+Time = 21; Result = 57879.867188
+gen vector 2, sum vector 2
+Time = 1036; Result = -76973.640625
+gen vector 3, sum vector 3
+Time = 103580; Result = 37022500.000000
+
+custom, o3, custom floor
+Hi, v1.4
+Running algorithm for task: 4+
+Dividing result by 1024 is: OFF
+gen vector 1, sum vector 1
+Time = 21; Result = 57879.867188
+gen vector 2, sum vector 2
+Time = 1000; Result = -76973.640625
+gen vector 3, sum vector 3
+Time = 99991; Result = 37022500.000000
+
+no custom, o3, math floor
+Hi, v1.4
+Running algorithm for task: 4+
+Dividing result by 1024 is: OFF
+gen vector 1, sum vector 1
+Time = 27; Result = 57879.867188
+gen vector 2, sum vector 2
+Time = 1324; Result = -76973.640625
+gen vector 3, sum vector 3
+Time = 132332; Result = 37022500.000000
+
+custom, math floor, o2
+Hi, v1.4
+Running algorithm for task: 4+
+Dividing result by 1024 is: OFF
+gen vector 1, sum vector 1
+Time = 23; Result = 57879.867188
+gen vector 2, sum vector 2
+Time = 1123; Result = -76973.640625
+gen vector 3, sum vector 3
+Time = 112280; Result = 37022500.000000
+
+custom, math floor, o3
+Hi, v1.4
+Running algorithm for task: 4+
+Dividing result by 1024 is: OFF
+gen vector 1, sum vector 1
+Time = 22; Result = 57879.867188
+gen vector 2, sum vector 2
+Time = 1123; Result = -76973.640625
+gen vector 3, sum vector 3
+Time = 112279; Result = 37022500.000000
+
+no custom, custom floor, o3
+Hi, v1.4
+Running algorithm for task: 4+
+Dividing result by 1024 is: OFF
+gen vector 1, sum vector 1
+Time = 24; Result = 57879.867188
+gen vector 2, sum vector 2
+Time = 1201; Result = -76973.640625
+gen vector 3, sum vector 3
+Time = 120043; Result = 37022500.000000
+
+
+
+//////////////////////////////////////////////////
+Total logic elements	5,678 / 15,408 ( 37 % )
+Total combinational functions	4,814 / 15,408 ( 31 % )
+Dedicated logic registers	3,872 / 15,408 ( 25 % )
+Total registers	3940
+Total pins	47 / 347 ( 14 % )
+Total virtual pins	0
+Total memory bits	291,840 / 516,096 ( 57 % )
+Embedded Multiplier 9-bit elements	11 / 112 ( 10 % )
+Total PLLs	1 / 4 ( 25 % )
